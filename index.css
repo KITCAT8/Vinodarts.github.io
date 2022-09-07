@@ -1,0 +1,40 @@
+body{
+  background: #333;
+  color: #fff;
+}
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.input{
+  width: 95%;
+  height: 30px;
+  border: none;
+  outline: none;
+  background: lavenderblush;
+  font-family: 600;
+  color: darkblue;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+#contry{
+  margin-top: 50px;
+}
+
+#contry button{
+  margin: 25px;
+  border: none;
+  width: 20px;
+  height: 40px;
+  background: #5556ff;
+}
