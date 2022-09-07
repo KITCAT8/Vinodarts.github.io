@@ -5,7 +5,7 @@ const addBtn = document.querySelector('.NewDiv');
 var sider = document.querySelector('.banner');
 
 Offer.innerHTML = '20%';
-OfferBox.style.display = 'block';
+OfferBox.style.display = '';
 
 
 /*function addnew() {
