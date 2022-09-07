@@ -1,24 +1,22 @@
-var OfferCard = document.getElementById('offer-card', 'box' );
+var Offer = document.querySelector('.offer');
 const OfferBox = document.getElementById('offer-box');
 const loader = document.getElementById('loader');
 const addBtn = document.querySelector('.NewDiv');
+var sider = document.querySelector('.banner');
 
-OfferCard.innerHTML = '20%';
+Offer.innerHTML = '20%';
 OfferBox.style.display = 'block';
 
-setTimeout(function() {
-  loader.style.display = "none";
-}, 3000);
-setTimeout(function() {
-  console.log("loaded");
-}, 3100);
 
-
-addBtn.addEventListener('click', addnew);
-
-function addnew() {
+/*function addnew() {
   console.log('click');
   const NewDivBox = document.createElement('div');
   NewDivBox.classList.add('div-shadow');
   document.body.appendChild(NewDivBox);
-}
+}*/
+
+window.addEventListener('load', function() {
+  loader.style.display = "none";
+  console.log('loaded');
+});
+
