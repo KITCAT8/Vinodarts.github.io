@@ -4,7 +4,7 @@ const loader = document.getElementById('loader');
 const addBtn = document.querySelector('.NewDiv');
 
 OfferCard.innerHTML = '20%';
-OfferBox.style.display = 'none';
+OfferBox.style.display = 'block';
 
 setTimeout(function() {
   loader.style.display = "none";
